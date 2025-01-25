@@ -1,0 +1,61 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    /* width: 350px;
+    height: 450px; */
+}
+#result{
+    height: 100px;
+    width:350px ;
+    background-color: green;
+    color:#fff;
+    font-size:2.3rem ;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.number{
+width: 350px;
+height: 450px;
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr  ;
+background-color: red;
+
+}
+.btn{
+    font-size: 1.9rem;
+}
+    #ac {
+        font-size: 2.5rem;
+      
+    }
+   .btn:active{
+    transform: scale(1.1);
+   }
+button{
+        cursor: pointer;
+    font-size: 2.5rem;
+}
+#egal{
+    color:#fff;
+    background-color: #333;
+    border: none;
+    grid-column: span 2; /* Occupe 2 colonnes */
+  grid-row: span 1; /* Occupe 1 ligne */
+}
